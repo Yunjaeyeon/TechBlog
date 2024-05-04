@@ -2,7 +2,13 @@ package chap3;
 
 public class Driver {
     public static void main(String[] args) {
-        Fly bat1 = new Bat();
-        bat1.fly();
+        Bat bat = new Bat();
+
+        bat.name = "bat";
+        bat.habitat = "cave";
+
+        bat.showName();
+        bat.showHabitat();
+
     }
 }

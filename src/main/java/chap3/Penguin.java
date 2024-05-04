@@ -1,7 +1,6 @@
 package chap3;
 
-public class Bat{
-    String name;
+public class Penguin extends Animal{
     public String habitat;
 
     public void showHabitat(){

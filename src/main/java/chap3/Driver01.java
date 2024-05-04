@@ -5,7 +5,7 @@ public class Driver01 {
         Animal animal = new Animal();
         Bird bird = new Bird();
 
-        animal.showMe();
-        bird.showMe();
+//        animal.showMe();
+//        bird.showMe();
     }
 }
