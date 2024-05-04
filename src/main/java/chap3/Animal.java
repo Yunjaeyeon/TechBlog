@@ -1,13 +1,9 @@
 package chap3;
 
 public class Animal {
-    String myClass;
-    
-    Animal() {
-        myClass = "Animal";
-    }
-    
-    void showMe() {
-        System.out.println("myClass = " + myClass);
-    }
+    public String name;
+
+   public void showName() {
+       System.out.printf("Hi, My Name is %s\n", name);
+   }
 }
